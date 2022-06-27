@@ -236,9 +236,13 @@ main .date input[type = "date" ]{
     color: var(--color-dark);
 }
 
+main .greeting{
+    font-size: 24px;
+    color: #111e88;
+}
 main .insights{
     display: grid;
-    grid-template-columns: repeat(3, 19rem);
+    grid-template-columns: repeat(4, 19rem);
     gap: 1.6rem;
 }
 

@@ -96,7 +96,14 @@ small{
 }
 
 .text-muted{
-    color: var(--color-info-dark);
+    color: var(--color-info-dark);  
+}
+
+.themetext{
+    color: #111e88;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 p{
@@ -236,9 +243,13 @@ main .date input[type = "date" ]{
     color: var(--color-dark);
 }
 
+main .greeting{
+    font-size: 24px;
+    color: #111e88;
+}
 main .insights{
     display: grid;
-    grid-template-columns: repeat(3, 19rem);
+    grid-template-columns: repeat(4, 25rem);
     gap: 1.6rem;
 }
 
@@ -253,6 +264,14 @@ main .insights > div{
 
 main .insights >div:hover{
     box-shadow: none;
+}
+main .themepallete {
+    background: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-top: 1rem;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
 }
 
 main .insights > div span{
