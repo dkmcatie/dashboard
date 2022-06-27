@@ -274,6 +274,9 @@ main .insights > div.health span{
 main .insights > div.alert span{
     background: var(--color-danger);
 }
+main .insights > div.happy span{
+    background: rgb(237, 254, 0);
+}
 
 main .insights > div .middle{
     display: flex;
